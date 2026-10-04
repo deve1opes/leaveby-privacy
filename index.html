@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeaveBy privacy policy</title>
+<meta name="description" content="What the LeaveBy commute app uses, where it goes, and how to delete it.">
+<style>
+  :root {
+    --bg: #f4f2ed;
+    --surface: #ffffff;
+    --ink: #151d18;
+    --muted: #4c5650;
+    --line: #dcd8cf;
+    --accent: #0e6b46;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121614;
+      --surface: #1b211e;
+      --ink: #eef1ee;
+      --muted: #b3bdb7;
+      --line: #2e3632;
+      --accent: #5fd3a0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 16px 64px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px 24px;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 28px 0 6px; }
+  .updated { color: var(--muted); margin: 0 0 20px; font-size: 0.95rem; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 1.2em; margin: 0 0 10px; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.9rem; margin-top: 20px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>LeaveBy privacy policy</h1>
+    <p class="updated">Last updated: 5 October 2026</p>
+
+    <p>LeaveBy tells you when to leave for work so you arrive on time, using live traffic. This policy explains what the app uses and where it goes.</p>
+
+    <h2>No account, nothing on our servers</h2>
+    <p>LeaveBy has no sign-in and no server of its own. Your route, settings, commute history (the last 60 days) and calendar choices are stored only on your phone.</p>
+
+    <h2>What leaves your phone, and why</h2>
+    <ul>
+      <li>To work out drive times, your start and destination (as map coordinates) are sent to Google Maps Platform or TomTom. When you use "current location" to fill in a place, that location is sent the same way.</li>
+      <li>To find places you search for, your search text is sent to Google Places, or to your phone's built-in address lookup.</li>
+      <li>If you turn on calendar events, the location written in an event is looked up to find it on the map: with Google Places on Pro, otherwise with your phone's built-in address lookup. LeaveBy only reads your calendar and never changes it.</li>
+      <li>To show public holidays, LeaveBy downloads Google Calendar's public holiday list for your country.</li>
+      <li>Subscriptions are handled by Google Play; LeaveBy only learns which plan you have.</li>
+    </ul>
+    <p>These services receive the request only to answer it, under their own privacy policies (<a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.tomtom.com/privacy/">TomTom</a>). LeaveBy does not sell or share your data, show ads, or use analytics or tracking.</p>
+
+    <h2>Location and motion</h2>
+    <p>If you allow it, LeaveBy uses your location and motion on the phone to notice when you leave home and arrive at work, so it can stop sending alerts. This happens through Google Play services on your phone and is not uploaded by LeaveBy. You can turn it off at any time in the app or in Android settings.</p>
+
+    <h2>Deleting your data</h2>
+    <p>Uninstalling LeaveBy deletes everything it stored. You can also clear its data in Android settings &gt; Apps &gt; LeaveBy &gt; Storage.</p>
+
+    <h2>Children</h2>
+    <p>LeaveBy is meant for adult drivers and isn't directed at children.</p>
+
+    <h2>Changes</h2>
+    <p>We'll update this page if the app starts using your data differently, and change the date above.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy: <a href="https://github.com/deve1opes/leaveby-privacy/issues">open an issue</a> on this page's repository.</p>
+  </div>
+  <footer>LeaveBy</footer>
+</main>
+</body>
+</html>
